@@ -3,17 +3,17 @@ Error: Undefined mixin 'easeOut'.
         on line 8 of /home/ubuntu/workspace/assets/css/_menu.scss, in `easeOut'
         from line 8 of /home/ubuntu/workspace/assets/css/_menu.scss
 
-3:     position: absolute;
-4:     z-index: 3;
-5:     right: 35px;
-6:     top: 35px;
-7:     cursor: pointer;
-8:     @include easeOut;
+3:   position: absolute;
+4:   z-index: 3;
+5:   right: 35px;
+6:   top: 35px;
+7:   cursor: pointer;
+8:   @include easeOut;
 9: 
-10:     .btn-line {
-11:         width: 28px;
-12:         height: 3px;
-13:         margin: 0 0 5px 0;
+10:   .btn-line {
+11:     width: 28px;
+12:     height: 3px;
+13:     margin: 0 0 5px 0;
 
 Backtrace:
 /home/ubuntu/workspace/assets/css/_menu.scss:8:in `easeOut'
@@ -69,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'easeOut'.\A         on line 8 of /home/ubuntu/workspace/assets/css/_menu.scss, in `easeOut'\A         from line 8 of /home/ubuntu/workspace/assets/css/_menu.scss\A \A 3:     position: absolute;\A 4:     z-index: 3;\A 5:     right: 35px;\A 6:     top: 35px;\A 7:     cursor: pointer;\A 8:     @include easeOut;\A 9: \A 10:     .btn-line {\A 11:         width: 28px;\A 12:         height: 3px;\A 13:         margin: 0 0 5px 0;"; }
+  content: "Error: Undefined mixin 'easeOut'.\A         on line 8 of /home/ubuntu/workspace/assets/css/_menu.scss, in `easeOut'\A         from line 8 of /home/ubuntu/workspace/assets/css/_menu.scss\A \A 3:   position: absolute;\A 4:   z-index: 3;\A 5:   right: 35px;\A 6:   top: 35px;\A 7:   cursor: pointer;\A 8:   @include easeOut;\A 9: \A 10:   .btn-line {\A 11:     width: 28px;\A 12:     height: 3px;\A 13:     margin: 0 0 5px 0;"; }

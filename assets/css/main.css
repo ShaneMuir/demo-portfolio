@@ -52,17 +52,19 @@
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
-  .menu .portrait {
-    width: 250px;
-    height: 250px;
-    background: url("../img/portrait.jpg");
-    border-radius: 50%;
-    border: solid 3px #eece1a; }
+    .menu-branding .portrait {
+      width: 250px;
+      height: 250px;
+      background: url("../img/portrait.jpg");
+      border-radius: 50%;
+      border: solid 3px #eece1a; }
   .menu .nav-items {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-items.show {
       transform: translate3d(0, 0, 0); }
+    .menu .nav-items.current > a {
+      color: #eece1a; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -73,6 +75,8 @@
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
+    .menu .nav-link:hover {
+      color: #eece1a; }
 
 .nav-items:nth-child(1) {
   transition-delay: 0.1s; }
