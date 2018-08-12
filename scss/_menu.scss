@@ -13,9 +13,7 @@
     margin: 0 0 5px 0;
     background: set-text-color($primary-color);
     @include easeOut;
-  }
-
-  // Rotate Into X With Menu Lines
+  } // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
 
@@ -23,14 +21,10 @@
       // Line 1 - Rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
-      }
-
-      // Line 2 - Hide
+      } // Line 2 - Hide
       &:nth-child(2) {
         opacity: 0;
-      }
-
-      // Line 3 - Rotate
+      } // Line 3 - Rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
@@ -43,7 +37,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden;
 
   &.show {
@@ -65,7 +59,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: $primary-color;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -74,11 +68,10 @@
       // Slide in from top
       transform: translate3d(0, 0, 0);
     }
-  }
-
-  // Branding Side
+  } // Branding Side
   &-branding {
-    background: $primary-color;
+
+    background: darken($primary-color, 5);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -105,7 +98,7 @@
       transform: translate3d(0, 0, 0);
     }
 
-    &.current > a {
+    &.current>a {
       color: $secondary-color;
     }
   }
